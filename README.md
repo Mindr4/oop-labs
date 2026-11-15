@@ -1,4 +1,4 @@
-# OOP Labs
+ # OOP Labs
 
 C# object-oriented programming labs, KTU.
 
@@ -10,3 +10,11 @@ processes it (filtering, counting, sorting).
 separation of logic into utility classes (InOutUtils, TaskUtils).
 
 **Run:** open `Lab1.Exercises.Register.sln` in Visual Studio and press F5.
+## Lab 2: Dog register with a register class
+Extends Lab 1 with a `DogsRegister` class that manages the list of dogs
+(filtering by breed, finding the oldest dog, tracking vaccinations),
+and adds value-based comparison to `Dog` (`Equals`, `GetHashCode`,
+comparison operators).
+
+**Run:** open `Lab2.Exercises/Lab2.Exercises.sln` in Visual Studio
+and press F5.
